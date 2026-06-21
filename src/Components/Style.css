@@ -156,36 +156,40 @@ color: white;
   border: none;
   color: white;
 }
-#catcard{
+#catcard {
   height: 250px;
-  width: 350px;
-  background-color:whitesmoke;
+  width: 100%;
+  max-width: 350px;
+  background-color: whitesmoke;
   border: 3px solid white;
-  padding: 40px;
+  padding: 20px;
   overflow: hidden;
   position: relative;
 }
-#cardimg{
-  height: 250px;
-  width: 250px;
+#cardimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
   transition: 0.3s ease;
-  position: relative;
-  top: 60px;
-  }
-  #btn3{
-    height: 35px;
+  position: static; /* remove shifting */
+}
+ #btn3 {
+  height: 35px;
   width: 120px;
   background-color: rgb(241, 88, 88);
   border-radius: 5px;
   border: none;
   color: white;
+
   position: absolute;
-  top: 180px;
-  left: 110px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
   opacity: 0;
   transition: 0.3s ease;
-
-  }
+}
 
   #catcard:hover #cardimg{
     filter: blur(4px) ;
@@ -558,4 +562,10 @@ color: white;
   .footer-logo {
     width: 90px;
   }
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }

@@ -123,7 +123,7 @@ const Home = () => {
       </div>
 </section>
 <section className='categories'>
-  <h1 className='text-center' id='h111'>Our Products</h1>
+  <h1 className='text-center' id='h111'>Our Categories</h1>
   <div className='container'>
     <div className='row'>
       <div className='col-sm-3 card mx-auto my-3'id='catcard'>
@@ -193,7 +193,7 @@ const Home = () => {
       <div className="col-12 footer-content">
         <img src={logo} alt="Famms logo" className="footer-logo" />
 
-        <div className="footer-details">
+        <div className="footer-details m">
           <p>
             <span>Address:</span> 123 CM, GreenWays Road, Chennai
           </p>
