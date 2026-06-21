@@ -25,3 +25,7 @@ A responsive e-commerce website built with React, featuring product browsing, ca
 ```bash
 npm install
 npm start
+
+## Live Demo
+
+[View the live website](https://e-commerce-famms-narmatha.vercel.app/)
