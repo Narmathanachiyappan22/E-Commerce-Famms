@@ -192,3 +192,147 @@
 .checkout-btn:hover{
     background-color: #014966;
 }
+/* ---------- Tablet and Mobile ---------- */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navlinks {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 5px;
+  }
+
+  .links,
+  #pages-dropdown {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  /* Product cards */
+  .card {
+    width: 100%;
+    max-width: 340px;
+    min-height: auto;
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  .proimg {
+    width: 190px;
+    height: 190px;
+  }
+
+  .card h4 {
+    font-size: 21px;
+  }
+
+  .card h6 {
+    font-size: 20px;
+  }
+
+  .pro-btn {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+  }
+
+  /* Contact heading */
+  .contact {
+    height: auto;
+    min-height: 90px;
+    padding: 15px;
+  }
+
+  #conhead {
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .proinput {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 12px auto;
+  }
+
+  /* Cart */
+  .cart-section {
+    padding: 15px 10px;
+  }
+
+  .cart-box {
+    padding: 15px;
+  }
+
+  .cart-img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+
+  .quantity-box {
+    margin: 12px 0;
+  }
+
+  .remove-btn {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .summary-box {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .checkout-btn {
+    width: 100%;
+  }
+}
+
+
+/* ---------- Small Mobile Phones ---------- */
+@media (max-width: 480px) {
+
+  .card {
+    max-width: 300px;
+  }
+
+  .proimg {
+    width: 160px;
+    height: 160px;
+  }
+
+  .card h4 {
+    font-size: 19px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .card h6 {
+    font-size: 18px;
+  }
+
+  #conhead {
+    font-size: 28px;
+  }
+
+  .cart-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .qty-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .remove-btn {
+    width: 100%;
+  }
+}

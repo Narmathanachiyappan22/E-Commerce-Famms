@@ -14,13 +14,13 @@ body {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.container h2 {
+.add_container h2 {
     text-align: center;
     margin-bottom: 25px;
     color: #333;
 }
 
-.container h3 {
+.add_container h3 {
     margin-top: 20px;
     color: #444;
 }
@@ -93,4 +93,67 @@ body {
         opacity: 1;
         transform: scale(1);
     }
+}
+/* Tablet and mobile */
+@media (max-width: 768px) {
+  .add_container {
+    width: 90%;
+    margin: 25px auto;
+    padding: 25px 20px;
+  }
+
+  .add_container h2 {
+    font-size: 26px;
+  }
+
+  .add_container h3 {
+    font-size: 20px;
+  }
+
+  .add_form-control {
+    font-size: 14px;
+    padding: 11px;
+  }
+
+  .btn-success {
+    font-size: 16px;
+    padding: 11px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .add_container {
+    width: 92%;
+    margin: 15px auto;
+    padding: 20px 15px;
+    border-radius: 10px;
+  }
+
+  .add_container h2 {
+    font-size: 23px;
+    margin-bottom: 18px;
+  }
+
+  .add_container h3 {
+    font-size: 18px;
+  }
+
+  .add_form-control {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .form-check-label {
+    font-size: 14px;
+  }
+
+  .btn-success {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .text-success {
+    font-size: 18px;
+  }
 }

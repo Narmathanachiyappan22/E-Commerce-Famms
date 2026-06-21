@@ -75,3 +75,88 @@
   justify-content: center;
   color: white;
 }
+/* Tablet and mobile */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navlinks {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 5px;
+  }
+
+  .links,
+  #pages-dropdown {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  /* Contact heading */
+  .contact {
+    height: auto;
+    min-height: 110px;
+    padding: 20px 15px;
+  }
+
+  #conhead {
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /* Contact form */
+  #form {
+    height: auto;
+    min-height: 400px;
+    width: 100%;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+  }
+
+  .input,
+  #ta {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  #btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .footer {
+    height: auto;
+    min-height: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+  #conhead {
+    font-size: 28px;
+  }
+
+  #form {
+    padding: 25px 15px;
+    margin-bottom: 25px;
+  }
+
+  .input {
+    height: 42px;
+    margin-bottom: 18px;
+  }
+
+  #ta {
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  #btn {
+    width: 140px;
+    height: 42px;
+  }
+}

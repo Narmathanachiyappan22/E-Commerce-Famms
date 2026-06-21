@@ -298,3 +298,264 @@ color: white;
     align-items: center;
     justify-content: center;
 }
+
+/* ---------- Tablet and Mobile ---------- */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navlinks {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    gap: 5px;
+  }
+
+  .links,
+  #pages-dropdown {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .bi {
+    padding-right: 15px;
+  }
+
+  .cart-count {
+    right: -8px;
+    top: -8px;
+  }
+
+  /* Hero section */
+  .Hero {
+    height: auto;
+    min-height: 520px;
+    background-position: center;
+    padding: 60px 20px;
+  }
+
+  #h1,
+  #h11 {
+    padding-left: 0;
+    font-size: 42px;
+    text-align: center;
+  }
+
+  #h1 {
+    padding-top: 20px;
+  }
+
+  #para {
+    padding-left: 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  #btn {
+    position: static;
+    display: block;
+    margin: 25px auto 0;
+  }
+
+  /* Why shop section */
+  .Hero2 {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  #h111 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  #card {
+    width: 100%;
+    max-width: 320px;
+    margin: 15px auto;
+  }
+
+  .img {
+    left: 0;
+    display: block;
+  }
+
+  /* New arrivals */
+  .newarrivals {
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .boyimg {
+    padding-left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+  }
+
+  .newarr {
+    font-size: 40px;
+  }
+
+  .paraa {
+    font-size: 16px;
+  }
+
+  /* Product/category cards */
+  #catcard {
+    width: 100%;
+    max-width: 350px;
+    margin: 15px auto;
+  }
+
+  #cardimg {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #btn3 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  /* Subscribe section */
+  .subscribe {
+    height: auto;
+    padding: 35px 20px;
+    text-align: center;
+  }
+
+  .sub1 {
+    font-size: 36px;
+  }
+
+  #subinput,
+  #sub-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+  }
+
+  /* Testimonial */
+  .testimonial {
+    height: auto;
+    padding: 35px 20px;
+    text-align: center;
+  }
+
+  .tesimage {
+    width: 140px;
+    height: 140px;
+  }
+
+  /* Footer */
+  .footer {
+    height: auto;
+    min-height: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  /* Prevent images from overflowing */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+/* ---------- Small Mobile Phones ---------- */
+@media (max-width: 480px) {
+
+  #h1,
+  #h11 {
+    font-size: 34px;
+  }
+
+  #h111,
+  .sub1 {
+    font-size: 30px;
+  }
+
+  .newarr {
+    font-size: 32px;
+  }
+
+  #para,
+  .paraa,
+  #subpara {
+    font-size: 15px;
+  }
+
+  #card {
+    height: auto;
+    min-height: 240px;
+    padding: 15px;
+  }
+
+  #catcard {
+    height: 230px;
+    padding: 20px;
+  }
+
+  #cardimg {
+    width: 190px;
+    height: 190px;
+    top: 35px;
+  }
+
+  #btn3 {
+    top: 165px;
+  }
+
+  #btn,
+  #btn2,
+  #btn4 {
+    width: 140px;
+  }
+}
+/* Mobile background image fix */
+@media (max-width: 768px) {
+  .Hero {
+    min-height: 550px;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Hero {
+    min-height: 500px;
+    background-position: 60% center;
+  }
+}
+.footer-logo {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 110px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo {
+    width: 90px;
+  }
+}

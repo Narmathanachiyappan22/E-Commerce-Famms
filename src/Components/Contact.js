@@ -78,19 +78,29 @@ const Contact = () => {
            </div>
          </div>
    </section>
-   <section className='footer'>
-     <div className='container'>
-       <div className='row'>
-         <div className='col-lg-12'>
-           <img src={logo} alt="logo" style={{width:"250px",paddingLeft:"25px",paddingTop:"20px"}} className='mx-auto d-block'/>
-           <h3 style={{fontSize:"20px",paddingTop:"30px",paddingLeft:"450px"}}><span style={{fontWeight:"bold"}}>Address:</span>123 CM,GreenWays Road,Chennai</h3>
-           <h3 style={{fontSize:"20px",paddingTop:"30px",paddingLeft:"450px"}}><span style={{fontWeight:"bold"}}>Telephone:</span>+91-8825517148</h3>
-           <h3 style={{fontSize:"20px",paddingTop:"30px",paddingLeft:"450px"}}><span style={{fontWeight:"bold"}}>E-mail:</span>Famms123@gmail.com</h3>
-   
-         </div>
-       </div>
-     </div>
-   </section>
+   <section className="footer">
+  <div className="container">
+    <div className="row">
+      <div className="col-12 footer-content">
+        <img src={logo} alt="Famms logo" className="footer-logo" />
+
+        <div className="footer-details">
+          <p>
+            <span>Address:</span> 123 CM, GreenWays Road, Chennai
+          </p>
+
+          <p>
+            <span>Telephone:</span> +91-8825517148
+          </p>
+
+          <p>
+            <span>E-mail:</span> Famms123@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
    
     </>
   )
